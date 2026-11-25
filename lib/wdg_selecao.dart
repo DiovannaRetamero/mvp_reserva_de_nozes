@@ -106,6 +106,7 @@ class CampoData extends StatelessWidget {
       initialDate: inicial,
       firstDate: primeira,
       lastDate: ultima,
+      initialEntryMode: DatePickerEntryMode.calendarOnly,
     );
     if (r != null) onChanged(DateTime(r.year, r.month, r.day));
   }
